@@ -4,13 +4,29 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+header {
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  background-color: white;
+}
+
 nav {
   border-bottom: 1px solid rgb(194, 194, 194);
   height: 2rem;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+ 
 }
 
 li {
     font-size: 0.8em;
+  }
+
+  main {
+    margin-top: 7rem;
   }
 
 .title {
@@ -29,11 +45,27 @@ li {
   font-weight: bold;
 }
 
+.nav-item:hover {
+color: green;
+}
+
+
 #terms {
   font-size: 1.1em;
   font-weight: 600;
   color: rgb(95, 94, 94);
   vertical-align: top;
+}
+
+.fa-list-ul {
+  padding:6px;
+}
+
+.fa-list-ul:hover {
+  padding:6px;
+  border-radius: 50%;
+  background-color: rgb(237, 237, 237);
+  cursor: pointer;
 }
 
 h5 {

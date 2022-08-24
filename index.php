@@ -7,15 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Faq Google</title>
 </head>
-<div class="container-fluid mt-2 d-flex justify-content-between">
-  <div class="ms-2"> <img id="logo" src="./img/logo.png" alt="logo"> <span id="terms">Privacy & Terms</span></div>
-  <div><button class="btn btn-sm btn-primary" type="submit">Sign In</button></div>
-</div>
+
 
 <body>
   <header>
+  <div class="container-fluid mt-2 d-flex justify-content-between">
+  <div class="ms-2"> <img id="logo" src="./img/logo.png" alt="logo"> <span id="terms">Privacy & Terms</span></div>
+  <div class="mt-1"><i class="fa-solid fa-list-ul me-4"></i></i><button class="btn btn-sm btn-primary me-3" type="submit">Sign In</button></div>
+</div>
 
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
