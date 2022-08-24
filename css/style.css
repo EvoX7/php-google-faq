@@ -1,41 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 body {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 nav {
-    border-bottom: 1px solid rgb(194, 194, 194);
-    height: 2rem;
+  border-bottom: 1px solid rgb(194, 194, 194);
+  height: 2rem;
 }
 
+li {
+    font-size: 0.8em;
+  }
+
 .title {
-    padding-top: 1rem;
-    display: flex;
-    justify-content: space-between;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 #logo {
-    width: 65px;
-    height: 20px;
+  width: 65px;
+  height: 20px;
 }
 
 .nav-item {
-    font-size: 0.8em;
-    font-weight: bold;
+  font-size: 0.8em;
+  font-weight: bold;
 }
 
 #terms {
-    font-size: 1.1em;
-    font-weight:600;
-    color: rgb(95, 94, 94);
-    vertical-align: top;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: rgb(95, 94, 94);
+  vertical-align: top;
 }
 
 h5 {
-    color: rgb(56, 56, 56);
+  color: rgb(56, 56, 56);
 }
 
 p {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
+
+
