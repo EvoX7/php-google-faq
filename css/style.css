@@ -20,7 +20,7 @@ nav {
     height: 20px;
 }
 
-li {
+.nav-item {
     font-size: 0.8em;
     font-weight: bold;
 }
@@ -34,4 +34,8 @@ li {
 
 h5 {
     color: rgb(56, 56, 56);
+}
+
+p {
+    font-size: 0.8em;
 }
