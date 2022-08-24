@@ -15,15 +15,10 @@ header {
 nav {
   border-bottom: 1px solid rgb(194, 194, 194);
   height: 2rem;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
- 
+  position: fixed;
+  top: 0; 
+  width: 100%; 
 }
-
-li {
-    font-size: 0.8em;
-  }
 
   main {
     margin-top: 7rem;
@@ -36,12 +31,11 @@ li {
 }
 
 #logo {
-  width: 65px;
-  height: 20px;
+  width: 70px;
+  height: 25px;
 }
 
 .nav-item {
-  font-size: 0.8em;
   font-weight: bold;
 }
 
@@ -49,12 +43,11 @@ li {
 color: green;
 }
 
-
 #terms {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 600;
   color: rgb(95, 94, 94);
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .fa-list-ul {
@@ -64,7 +57,7 @@ color: green;
 .fa-list-ul:hover {
   padding:6px;
   border-radius: 50%;
-  background-color: rgb(237, 237, 237);
+  background-color: #f5f5f5;
   cursor: pointer;
 }
 
@@ -72,8 +65,24 @@ h5 {
   color: rgb(56, 56, 56);
 }
 
-p {
+footer {
+  height: 40px;
+  background-color: #f5f5f5;
+}
+
+select {
+  height: 3.5vh;
+}
+
+.list-group {
   font-size: 0.8em;
+}
+
+.eu_flag {
+  margin-right: 1rem;
+  width: 25px;
+  height: 20px;
+  border-radius: 2px;
 }
 
 
