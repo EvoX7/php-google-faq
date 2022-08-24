@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    border-bottom: 1px solid rgb(194, 194, 194);
+    height: 2rem;
+}
+
+.title {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 65px;
+    height: 20px;
+}
+
+li {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#terms {
+    font-size: 1.1em;
+    font-weight:600;
+    color: rgb(95, 94, 94);
+    vertical-align: top;
+}
+
+h5 {
+    color: rgb(56, 56, 56);
+}
